@@ -1,0 +1,11 @@
+import requests
+
+api_key='c9deb6d2a679577e7bc6dcb3c1b2c0c1'
+user_data= input("enter city= ")
+url=f'http://api.openweathermap.org/data/2.5/weather?q={user_data}&appid={api_key}&units=metric'
+
+weather_data = requests.get(url)
+
+
+print(weather_data.json())
+    
