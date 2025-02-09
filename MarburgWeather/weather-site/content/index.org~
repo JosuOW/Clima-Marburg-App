@@ -1,0 +1,497 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil expand-links:t f:t
+#+options: inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:t todo:t |:t
+#+title: Proyecto ICCD332 Arquitectura de Computadores
+#+date: 2025-02-08
+#+author: Estudiantes: Juan Murillo - Josune Singaña
+#+email: juan.murillo@epn.edu.ec , josune.singana@epn.edu.ec
+#+language: es
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.1 (Org mode 9.7.5)
+#+cite_export:
+* City Weather APP
+Este es el proyecto de fin de semestre en donde se pretende demostrar
+las destrezas obtenidas durante el transcurso de la asignatura de
+**Arquitectura de Computadores**.
+
+1. Conocimientos de sistema operativo Linux
+2. Conocimientos de Emacs/Jupyter
+3. Configuración de Entorno para Data Science con Mamba/Anaconda
+4. Literate Programming
+ 
+** Estructura del proyecto
+Se recomienda que el proyecto se cree en el /home/ del sistema
+operativo i.e. /home/<user>/. Allí se creará la carpeta /CityWeather/
+#+begin_src shell :results output :exports both
+  cd
+  mkdir MarburgWeather
+  cd MarburgWeather
+  pwd
+#+end_src
+
+#+RESULTS:
+#+begin_example
+/home/iccd332-josune/MarburgWeather
+#+end_example
+
+El proyecto ha de tener los siguientes archivos y
+subdirectorios. Adaptar los nombres de los archivos según las ciudades
+específicas del grupo.
+
+#+begin_src shell :results output :exports results
+cd ..
+cd ..
+tree
+#+end_src
+
+#+RESULTS:
+#+begin_example
+.
+├── CityTemperatureAnalysis.ipynb
+├── clima-quito-hoy.csv
+├── get-weather.sh
+├── main.py
+├── output.log
+└── weather-site
+    ├── build-site.el
+    ├── build.sh
+    ├── content
+    │   ├── images
+    │   │   ├── plot.png
+    │   │   └── temperature.png
+    │   ├── index.org
+    │   └── index.org_archive
+    └── public
+        ├── images
+        │   ├── plot.png
+        │   └── temperature.png
+        ├── index.html
+        
+
+5 directories, 18 files
+#+end_example
+
+Puede usar Emacs para la creación de la estructura de su proyecto
+usando comandos desde el bloque de shell. Recuerde ejecutar el bloque
+con ~C-c C-c~. Para insertar un bloque nuevo utilice ~C-c C-,~ o ~M-x
+org-insert-structure-template~. Seleccione la opción /s/ para src y
+adapte el bloque según su código tenga un comandos de shell, código de
+Python o de Java. En este documento ~.org~ dispone de varios ejemplos
+funcionales para escribir y presentar el código.
+
+#+begin_src shell :results output :exports both
+     cd
+   cd MarburgWeather
+  mkdir weather-site
+  cd weather-site
+  mkdir content
+  cd content
+  mkdir images
+  ls
+#+end_src
+
+#+RESULTS:
+#+begin_example
+images
+#+end_example
+
+** Formulación del Problema
+Se desea realizar un registro climatológico de una ciudad
+$\mathcal{C}$. Para esto, escriba un script de Python/Java que permita
+obtener datos climatológicos desde el API de [[https://openweathermap.org/current#one][openweathermap]]. El API
+hace uso de los valores de latitud $x$ y longitud $y$ de la ciudad
+$\mathcal{C}$ para devolver los valores actuales a un tiempo $t$.
+
+Los resultados obtenidos de la consulta al API se escriben en un
+archivo /clima-<ciudad>-hoy.csv/. Cada ejecución del script debe
+almacenar nuevos datos en el archivo. Utilice *crontab* y sus
+conocimientos de Linux y Programación para obtener datos del API de
+/openweathermap/ con una periodicidad de 15 minutos mediante la
+ejecución de un archivo ejecutable denominado
+/get-weather.sh/. Obtenga al menos 50 datos. Verifique los
+resultados. Todas las operaciones se realizan en Linux o en el
+WSL. Las etapas del problema se subdividen en:
+
+    1. Conformar los grupos de 2 estudiantes y definir la ciudad
+       objeto de estudio.
+    2.  Crear su API gratuito en [[https://openweathermap.org/current#one][openweathermap]]
+    3. Escribir un script en Python/Java que realice la consulta al
+       API y escriba los resultados en /clima-<ciudad>-hoy.csv/. El
+       archivo ha de contener toda la información que se obtiene del
+       API en columnas. Se debe observar que los datos sobre lluvia
+       (rain) y nieve (snow) se dan a veces si existe el fenómeno.
+    3. Desarrollar un ejecutable /get-weather.sh/ para ejecutar el
+       programa Python/Java.[fn:1]
+       #+begin_src shell :exports both
+         
+       #+end_src
+    4. Configurar Crontab para la adquisición de datos. Escriba el
+       comando configurado. Respalde la ejecución de crontab en un
+       archivo output.log
+    5. Realizar la presentación del Trabajo utilizando la generación
+       del sitio web por medio de Emacs. Para esto es necesario crear
+       la carpeta **weather-site** dentro del proyecto. Puede ajustar el
+       /look and feel/ según sus preferencias. El servidor a usar es
+       el **simple-httpd** integrado en Emacs que debe ser instalado:
+       - Usando comandos Emacs: ~M-x package-install~ presionamos
+         enter (i.e. RET) y escribimos el nombre del paquete:
+         simple-httpd
+       - Configurando el archivo init.el
+
+       #+begin_src elisp
+         (use-package simple-httpd
+            :ensure t)
+       #+end_src
+
+       Instrucciones de sobre la creación del sitio web se tiene en el
+       vídeo de instrucciones y en el archivo [[https://github.com/LeninGF/EPN-Lectures/blob/main/iccd332ArqComp-2024-A/Tutoriales/Org-Website/Org-Website.org][Org-Website.org]] en el
+       GitHub del curso
+
+    6. Su código debe estar respaldado en GitHub/BitBucket, la
+       dirección será remitida en la contestación de la tarea
+
+       https://github.com/JosuOW/Clima-Marburg-App.git
+
+** Descripción del código
+
+
+*Lectura del API*
+Se realiza la conexión al API de OpenWeatherMap para obtener los datos climáticos de Marburg, Alemania.
+- API_KEY: Clave de acceso al API de OpenWeatherMap.
+- LAT y LON: Coordenadas geográficas de Marburg, Alemania.
+- URL: Endpoint del API para obtener los datos climáticos.
+#+begin_src python :session :results output exports both
+  import requests
+  import csv
+  from datetime import datetime
+
+  # Configuración
+  API_KEY = "c9deb6d2a679577e7bc6dcb3c1b2c0c1"  
+  LAT = "50.81"  # Latitud de Marburg, Alemania
+  LON = "8.77"   # Longitud de Marburg, Alemania
+  URL = f"https://api.openweathermap.org/data/2.5/weather?lat={LAT}&lon={LON}&appid={API_KEY}&units=metric"
+
+  # Obtener datos
+  response = requests.get(URL)
+  data = response.json()
+
+#+end_src
+
+#+RESULTS:
+
+
+
+*Convertir /Json/ a /Diccionario/ de Python*
+- dt: Fecha y hora de la medición.
+- temp: Temperatura actual en grados centígrados.
+- humidity: Humedad relativa en porcentaje.
+- pressure: Presión atmosférica en hectopascales (hPa).
+- wind: Velocidad del viento en metros por segundo (m/s).
+- description: Descripción textual del clima (por ejemplo, "cielo claro").
+- rain_1h: Cantidad de lluvia en la última hora (mm).
+- snow_1h: Cantidad de nieve en la última hora (mm).
+#+begin_src python :session :results output exports both
+
+# Extraer información relevante
+dt = datetime.fromtimestamp(data["dt"])  # Conversión de timestamp a datetime
+temp = data["main"]["temp"]  # Temperatura en grados centígrados
+humidity = data["main"]["humidity"]  # Humedad en porcentaje
+pressure = data["main"]["pressure"]  # Presión atmosférica en hPa
+wind = data["wind"]["speed"]  # Velocidad del viento en m/s
+description = data["weather"][0]["description"]  # Descripción del clima
+rain_1h = data.get("rain", {}).get("1h", 0)  # Lluvia en 1h (0 si no hay datos)
+snow_1h = data.get("snow", {}).get("1h", 0)  # Nieve en 1h (0 si no hay datos)
+#+end_src
+
+#+RESULTS:
+
+
+
+*Guardar el archivo csv*
+- clima-marburg-hoy.csv: Archivo CSV donde se almacenan los datos.
+- writer.writerow: Escribe una fila en el archivo CSV con los datos extraídos.
+#+begin_src python :session :results output exports both
+  # Guardar en archivo CSV
+  with open("clima-marburg-hoy.csv", "a", newline="") as file:
+      writer = csv.writer(file)
+      writer.writerow([dt, temp, humidity, pressure, wind, description, rain_1h, snow_1h])
+
+  print("Datos guardados en clima-marburg-hoy.csv")
+  print(data)
+#+end_src
+
+#+RESULTS:
+: Datos guardados en clima-marburg-hoy.csv
+
+** Script ejecutable sh
+Se coloca el contenido del script ejecutable. Recuerde que se debe
+utilizar el entorno de **anaconda/mamba** denominado **iccd332** para
+la ejecución de Python; independientemente de que tenga una
+instalación nativa de Python
+
+En el caso de los shell script se puede usar `which sh` para conocer
+la ubicación del ejecutable
+#+begin_src shell :results output :exports both
+which sh
+#+end_src
+
+#+RESULTS:
+#+begin_example
+/usr/bin/sh
+#+end_example
+
+De igual manera se requiere localizar el entorno de mamba *iccd332*
+que será utilizado
+
+#+begin_src shell :results output :exports both
+which mamba
+#+end_src
+
+#+RESULTS:
+#+begin_example
+/home/iccd332-josune/miniforge3/condabin/mamba
+#+end_example
+
+Con esto el archivo ejecutable a de tener (adapte el código según las
+condiciones de su máquina):
+
+
+#+begin_src shell :results output :exports both
+#!/bin/bash
+source /home/iccd332-josune/miniforge3/etc/profile.d/conda.sh  # Ruta a mamba.sh
+eval "$(conda shell.bash hook)"
+conda activate iccd332
+python MarburgWeather/main.py
+#+end_src
+
+
+Finalmente convierta en ejecutable como se explicó en clases y laboratorio
+
+
+#+begin_src shell :results output :exports both
+    #!/usr/bin/sh
+    cd
+  cd MarburgWeather
+  chmod +x get-weather.sh
+#+end_src
+
+#+RESULTS:
+#+begin_example
+#+end_example
+
+
+
+
+** Configuración de Crontab
+Se indica la configuración realizada en crontab para la adquisición de datos
+
+  #+begin_src shell
+*/15 * * * * MarburgWeather/get-weather.sh >> output.log 2>&1
+#+end_src
+* Presentación de resultados
+Para la pressentación de resultados se utilizan las librerías de Python:
+- matplotlib
+- pandas
+
+Alternativamente como pudo estudiar en el Jupyter Notebook
+[[https://github.com/LeninGF/EPN-Lectures/blob/main/iccd332ArqComp-2024-A/Proyectos/CityWeather/CityTemperatureAnalysis.ipynb][CityTemperatureAnalysis.ipynb]], existen librerías alternativas que se
+pueden utilizar para presentar los resultados gráficos. En ambos
+casos, para que funcione los siguientes bloques de código, es
+necesario que realice la instalación de los paquetes usando ~mamba
+install <nombre-paquete>~
+** Muestra Aleatoria de datos
+Presentar una muestra de 10 valores aleatorios de los datos obtenidos.
+#+caption: Lectura de archivo csv
+#+begin_src python :session :results output exports both
+import os
+import pandas as pd
+# lectura del archivo csv obtenido
+df = pd.read_csv('/home/iccd332-josune/MarburgWeather/clima-marburg-hoy-etl.csv')
+# se imprime la estructura del dataframe en forma de filas x columnas
+print(df.shape)
+#+end_src
+
+#+RESULTS:
+: (167, 8)
+
+Resultado del número de filas y columnas leídos del archivo csv
+#+RESULTS:
+: (167, 8)
+
+
+
+#+caption: Despliegue de datos aleatorios
+#+begin_src python :session :exports both :results value table :return table
+table1 = df.sample(10)
+table = [list(table1)]+[None]+table1.values.tolist()
+#+end_src
+
+#+RESULTS:
+| Date_Time           | Temperature | Humidity | Pressure | Wind | Description     | Rain per hour | Snow per hour |
+|---------------------+-------------+----------+----------+------+-----------------+---------------+---------------|
+| 2025-02-08 09:45:12 |         6.0 |       63 |     1024 | 2.04 | overcast clouds |             0 |             0 |
+| 2025-02-08 03:40:03 |        0.74 |       75 |     1026 |  0.4 | overcast clouds |             0 |             0 |
+| 2025-02-08 08:12:03 |        5.57 |       67 |     1024 | 1.35 | overcast clouds |             0 |             0 |
+| 2025-02-08 17:25:02 |        0.45 |       88 |     1026 | 2.17 | broken clouds   |             0 |             0 |
+| 2025-02-08 08:34:03 |        5.64 |       63 |     1024 | 1.56 | overcast clouds |             0 |             0 |
+| 2025-02-08 14:50:00 |        1.81 |       82 |     1026 | 2.44 | overcast clouds |             0 |             0 |
+| 2025-02-08 02:40:02 |       -1.77 |       96 |     1025 |  1.3 | overcast clouds |             0 |             0 |
+| 2025-02-08 09:10:03 |        5.22 |       67 |     1024 | 1.56 | overcast clouds |             0 |             0 |
+| 2025-02-08 03:14:02 |       -1.21 |       94 |     1025 |  1.3 | overcast clouds |             0 |             0 |
+| 2025-02-08 15:35:03 |        1.44 |       83 |     1026 | 1.71 | overcast clouds |             0 |             0 |
+
+** Gráfica Temperatura vs Tiempo
+Realizar una gráfica de la Temperatura en el tiempo.
+
+
+El siguiente cógido permite hacer la gráfica de la temperatura vs
+tiempo para Org 9.7+. Para saber que versión dispone puede ejecutar
+~M-x org-version~
+
+#+begin_src python :results file :exports both :session
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import pandas as pd
+
+# Limpia los nombres de las columnas por si tienen espacios extra
+df.columns = df.columns.str.strip()
+
+# Define el tamaño de la figura de salida
+fig = plt.figure(figsize=(8,6))
+
+# Dibujar temperatura vs tiempo
+plt.plot(df['Date_Time'], df['Temperature'])
+
+# Ajuste para presentación de fechas en la imagen
+plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=2))
+plt.grid()
+
+# Título del gráfico
+plt.title('Main Temp vs Time in Marburg')
+plt.xticks(rotation=40)  # Rotación de las etiquetas 40°
+fig.tight_layout()
+
+# Guardar la imagen
+fname = "/home/iccd332-josune/MarburgWeather/weather-site/content/images/temperatureindex.png"
+plt.savefig(fname)
+
+# Devolver el nombre del archivo para que Org Mode lo muestre
+fname
+#+end_src
+
+
+#+caption: Gráfica Temperatura vs Tiempo
+#+RESULTS:
+[[file:/home/iccd332-josune/MarburgWeather/weather-site/content/images/temperatureindex.png]]
+
+
+
+
+
+
+
+Debido a que el archivo index.org se abre dentro de la carpeta
+/content/, y en cambio el servidor http de emacs se ejecuta desde la
+carpeta /public/ es necesario copiar el archivo a la ubicación
+equivalente en ~/public/images~
+
+#+begin_src shell
+cp -rfv /home/iccd332-josune/MarburgWeather/weather-site/content/images* /home/iccd332-josune/MarburgWeather/weather-site/public/images
+#+end_src
+
+#+RESULTS:
+#+begin_example
+'/home/iccd332-josune/MarburgWeather/weather-site/content/images/temperature.png' -> '/home/iccd332-josune/MarburgWeather/weather-site/public/images/images/temperature.png'
+'/home/iccd332-josune/MarburgWeather/weather-site/content/images/temperatureindex.png' -> '/home/iccd332-josune/MarburgWeather/weather-site/public/images/images/temperatureindex.png'
+'/home/iccd332-josune/MarburgWeather/weather-site/content/images/humidityindex.png' -> '/home/iccd332-josune/MarburgWeather/weather-site/public/images/images/humidityindex.png'
+'/home/iccd332-josune/MarburgWeather/weather-site/content/images/windindex.png' -> '/home/iccd332-josune/MarburgWeather/weather-site/public/images/images/windindex.png'
+#+end_example
+
+**  Realice una gráfica de Humedad con respecto al tiempo
+
+#+begin_src python :results file :exports both :session
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import pandas as pd
+
+# Limpia los nombres de las columnas por si tienen espacios extra
+df.columns = df.columns.str.strip()
+
+# Define el tamaño de la figura de salida
+fig = plt.figure(figsize=(8,6))
+
+# Dibujar temperatura vs tiempo
+plt.plot(df['Date_Time'], df['Humidity'])
+
+# Ajuste para presentación de fechas en la imagen
+plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=2))
+plt.grid()
+
+# Título del gráfico
+plt.title('Humidity vs Time in Marburg')
+plt.xticks(rotation=40)  # Rotación de las etiquetas 40°
+fig.tight_layout()
+
+# Guardar la imagen
+fname = "/home/iccd332-josune/MarburgWeather/weather-site/content/images/humidityindex.png"
+plt.savefig(fname)
+
+# Devolver el nombre del archivo para que Org Mode lo muestre
+fname
+#+end_src
+
+#+RESULTS:
+[[file:/home/iccd332-josune/MarburgWeather/weather-site/content/images/humidityindex.png]]
+
+
+
+
+**  *Opcional* Presente alguna gráfica de interés.
+
+#+begin_src python :results file :exports both :session
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import pandas as pd
+
+# Limpia los nombres de las columnas por si tienen espacios extra
+df.columns = df.columns.str.strip()
+
+# Define el tamaño de la figura de salida
+fig = plt.figure(figsize=(8,6))
+
+# Dibujar temperatura vs tiempo
+plt.plot(df['Date_Time'], df['Wind'])
+
+# Ajuste para presentación de fechas en la imagen
+plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=2))
+plt.grid()
+
+# Título del gráfico
+plt.title('Wind vs Time in Marburg')
+plt.xticks(rotation=40)  # Rotación de las etiquetas 40°
+fig.tight_layout()
+
+# Guardar la imagen
+fname = "/home/iccd332-josune/MarburgWeather/weather-site/content/images/windindex.png"
+plt.savefig(fname)
+
+# Devolver el nombre del archivo para que Org Mode lo muestre
+fname
+#+end_src
+
+#+RESULTS:
+[[file:/home/iccd332-josune/MarburgWeather/weather-site/content/images/windindex.png]]
+
+* Referencias
+- [[https://emacs.stackexchange.com/questions/28715/get-pandas-data-frame-as-a-table-in-org-babel][presentar dataframe como tabla en emacs org]]
+- [[https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-python.html][Python Source Code Blocks in Org Mode]]
+- [[https://systemcrafters.net/publishing-websites-with-org-mode/building-the-site/][Systems Crafters Construir tu sitio web con Modo Emacs Org]]
+- [[https://www.youtube.com/watch?v=AfkrzFodoNw][Vídeo Youtube Build Your Website with Org Mode]]
+* Footnotes
+
+[fn:1] Recuerde que su máquina ha de disponer de un entorno de
+anaconda/mamba denominado iccd332 en el cual se dispone del interprete
+de Python

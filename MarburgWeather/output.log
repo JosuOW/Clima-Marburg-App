@@ -1,2 +1,680 @@
+/bin/sh: 1: /MarburgWeather/get-weather.sh: not found
+/bin/sh: 1: /MarburgWeather/get-weather.sh: not found
+/bin/sh: 1: /MarburgWeather/get-weather.sh: not found
 Datos guardados en clima-marburg-hoy.csv
 Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f82e42fdd50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f82e42fdd50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f82e42fdd50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f6ff9f260d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6ff9f260d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f6ff9f260d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f14b62e1b10>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f14b62e1b10>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f14b62e1b10>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7fbb0bce2a50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fbb0bce2a50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fbb0bce2a50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7fb07962aa50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb07962aa50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7fb07962aa50>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f08f78e70d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f08f78e70d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f08f78e70d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f65157d30d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f65157d30d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/iccd332-josune/MarburgWeather/main.py", line 12, in <module>
+    response = requests.get(URL)
+               ^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/iccd332-josune/miniforge3/envs/iccd332/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.openweathermap.org', port=443): Max retries exceeded with url: /data/2.5/weather?lat=50.81&lon=8.77&appid=c9deb6d2a679577e7bc6dcb3c1b2c0c1&units=metric (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f65157d30d0>: Failed to resolve 'api.openweathermap.org' ([Errno -3] Temporary failure in name resolution)"))
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.83, 'feels_like': -1.11, 'temp_min': -0.19, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 85, 'sea_level': 1026, 'grnd_level': 991}, 'visibility': 10000, 'wind': {'speed': 1.71, 'deg': 33, 'gust': 1.75}, 'clouds': {'all': 95}, 'dt': 1739049003, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.7692, 'lat': 50.8148}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.94, 'feels_like': -0.99, 'temp_min': -0.08, 'temp_max': 2.44, 'pressure': 1026, 'humidity': 85, 'sea_level': 1026, 'grnd_level': 991}, 'visibility': 10000, 'wind': {'speed': 1.71, 'deg': 33, 'gust': 1.75}, 'clouds': {'all': 95}, 'dt': 1739048963, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997391, 'sunset': 1739032107}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.83, 'feels_like': -1.11, 'temp_min': -0.19, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 89, 'sea_level': 1026, 'grnd_level': 991}, 'visibility': 10000, 'wind': {'speed': 1.71, 'deg': 33, 'gust': 1.75}, 'clouds': {'all': 95}, 'dt': 1739049603, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.89, 'feels_like': -1.05, 'temp_min': 0.37, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 89, 'sea_level': 1026, 'grnd_level': 991}, 'visibility': 10000, 'wind': {'speed': 1.71, 'deg': 33, 'gust': 1.75}, 'clouds': {'all': 95}, 'dt': 1739049903, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.83, 'feels_like': -1.11, 'temp_min': -0.19, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 89, 'sea_level': 1026, 'grnd_level': 991}, 'visibility': 10000, 'wind': {'speed': 1.71, 'deg': 33, 'gust': 1.75}, 'clouds': {'all': 95}, 'dt': 1739049603, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 804, 'main': 'Clouds', 'description': 'overcast clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.89, 'feels_like': -1.05, 'temp_min': 0.37, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 89, 'sea_level': 1026, 'grnd_level': 991}, 'visibility': 10000, 'wind': {'speed': 1.71, 'deg': 33, 'gust': 1.75}, 'clouds': {'all': 95}, 'dt': 1739049903, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.89, 'feels_like': -1.62, 'temp_min': 0.37, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 87, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739050803, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.89, 'feels_like': -1.62, 'temp_min': 0.37, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 87, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739051102, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.89, 'feels_like': -1.62, 'temp_min': 0.37, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 87, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739051102, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.89, 'feels_like': -1.62, 'temp_min': 0.37, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 87, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739051102, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.51, 'feels_like': -2.06, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739052003, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.51, 'feels_like': -2.06, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739052303, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.51, 'feels_like': -2.06, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739052303, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.51, 'feels_like': -2.06, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739052303, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.45, 'feels_like': -2.13, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739053203, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.45, 'feels_like': -2.13, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739053502, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.45, 'feels_like': -1.63, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1027, 'humidity': 87, 'sea_level': 1027, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 1.77, 'deg': 20, 'gust': 1.71}, 'clouds': {'all': 59}, 'dt': 1739053803, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.45, 'feels_like': -2.13, 'temp_min': -0.05, 'temp_max': 2.33, 'pressure': 1026, 'humidity': 88, 'sea_level': 1026, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 2.17, 'deg': 31, 'gust': 2.02}, 'clouds': {'all': 73}, 'dt': 1739053502, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.39, 'feels_like': -1.7, 'temp_min': -0.05, 'temp_max': 1.77, 'pressure': 1027, 'humidity': 88, 'sea_level': 1027, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 1.77, 'deg': 20, 'gust': 1.71}, 'clouds': {'all': 59}, 'dt': 1739054402, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.33, 'feels_like': -1.77, 'temp_min': -0.19, 'temp_max': 1.77, 'pressure': 1027, 'humidity': 88, 'sea_level': 1027, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 1.77, 'deg': 20, 'gust': 1.71}, 'clouds': {'all': 59}, 'dt': 1739054702, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.33, 'feels_like': -1.77, 'temp_min': -0.19, 'temp_max': 1.77, 'pressure': 1027, 'humidity': 88, 'sea_level': 1027, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 1.77, 'deg': 20, 'gust': 1.71}, 'clouds': {'all': 59}, 'dt': 1739054702, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.27, 'feels_like': -1.84, 'temp_min': -0.75, 'temp_max': 1.77, 'pressure': 1027, 'humidity': 87, 'sea_level': 1027, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 1.77, 'deg': 20, 'gust': 1.71}, 'clouds': {'all': 59}, 'dt': 1739055303, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1738997390, 'sunset': 1739032108}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}
+Datos guardados en clima-marburg-hoy.csv
+{'coord': {'lon': 8.77, 'lat': 50.81}, 'weather': [{'id': 803, 'main': 'Clouds', 'description': 'broken clouds', 'icon': '04n'}], 'base': 'stations', 'main': {'temp': 0.21, 'feels_like': -1.91, 'temp_min': -0.75, 'temp_max': 1.77, 'pressure': 1027, 'humidity': 87, 'sea_level': 1027, 'grnd_level': 992}, 'visibility': 10000, 'wind': {'speed': 1.77, 'deg': 20, 'gust': 1.71}, 'clouds': {'all': 59}, 'dt': 1739055602, 'sys': {'type': 2, 'id': 2097769, 'country': 'DE', 'sunrise': 1739083688, 'sunset': 1739118615}, 'timezone': 3600, 'id': 2873759, 'name': 'Marburg', 'cod': 200}

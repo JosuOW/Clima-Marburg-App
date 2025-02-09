@@ -29,4 +29,5 @@ with open("MarburgWeather/clima-marburg-hoy.csv", "a", newline="") as file:
     writer.writerow([dt, temp, humidity, pressure, wind, description, rain_1h, snow_1h])
 
 print("Datos guardados en clima-marburg-hoy.csv")
+print(data)
     
